@@ -199,7 +199,7 @@ class App extends Component {
                                   </thead>
                                   <tbody>
                                     {
-                                      this.state.empleados.map( empleado =>{
+                                      this.state.empleados.map(empleado =>{
                                         return (
                                            <tr key={empleado._id}>
                                               <td>{empleado.nombre}</td>
